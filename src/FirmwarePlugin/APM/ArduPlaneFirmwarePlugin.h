@@ -42,6 +42,9 @@ public:
         QLOITER       = 19,
         QLAND         = 20,
         QRTL          = 21,
+        AWE_LOITER_3D = 37,
+        AWE_EIGHT_SPHERE = 38,
+
     };
 
     APMPlaneMode(uint32_t mode, bool settable);

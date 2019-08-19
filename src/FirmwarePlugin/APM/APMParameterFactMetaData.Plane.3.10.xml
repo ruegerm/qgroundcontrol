@@ -382,6 +382,8 @@
 <value code="20">QLAND</value>
 <value code="21">QRTL</value>
 <value code="22">QAUTOTUNE</value>
+<value code="37">AWE_LOITER_3D</value>
+<value code="38">AWE_EIGHT_SPHERE</value>
 </values>
 </param>
 <param humanName="FlightMode2" name="ArduPlane:FLTMODE2" documentation="Flight mode for switch position 2 (1231 to 1360)" user="Standard">
@@ -406,6 +408,8 @@
 <value code="20">QLAND</value>
 <value code="21">QRTL</value>
 <value code="22">QAUTOTUNE</value>
+<value code="37">AWE_LOITER_3D</value>
+<value code="38">AWE_EIGHT_SPHERE</value>
 </values>
 </param>
 <param humanName="FlightMode3" name="ArduPlane:FLTMODE3" documentation="Flight mode for switch position 3 (1361 to 1490)" user="Standard">
@@ -430,6 +434,8 @@
 <value code="20">QLAND</value>
 <value code="21">QRTL</value>
 <value code="22">QAUTOTUNE</value>
+<value code="37">AWE_LOITER_3D</value>
+<value code="38">AWE_EIGHT_SPHERE</value>
 </values>
 </param>
 <param humanName="FlightMode4" name="ArduPlane:FLTMODE4" documentation="Flight mode for switch position 4 (1491 to 1620)" user="Standard">
@@ -454,6 +460,8 @@
 <value code="20">QLAND</value>
 <value code="21">QRTL</value>
 <value code="22">QAUTOTUNE</value>
+<value code="37">AWE_LOITER_3D</value>
+<value code="38">AWE_EIGHT_SPHERE</value>
 </values>
 </param>
 <param humanName="FlightMode5" name="ArduPlane:FLTMODE5" documentation="Flight mode for switch position 5 (1621 to 1749)" user="Standard">
@@ -478,6 +486,8 @@
 <value code="20">QLAND</value>
 <value code="21">QRTL</value>
 <value code="22">QAUTOTUNE</value>
+<value code="37">AWE_LOITER_3D</value>
+<value code="38">AWE_EIGHT_SPHERE</value>
 </values>
 </param>
 <param humanName="FlightMode6" name="ArduPlane:FLTMODE6" documentation="Flight mode for switch position 6 (1750 to 2049)" user="Standard">
@@ -502,6 +512,8 @@
 <value code="20">QLAND</value>
 <value code="21">QRTL</value>
 <value code="22">QAUTOTUNE</value>
+<value code="37">AWE_LOITER_3D</value>
+<value code="38">AWE_EIGHT_SPHERE</value>
 </values>
 </param>
 <param humanName="Initial flight mode" name="ArduPlane:INITIAL_MODE" documentation="This selects the mode to start in on boot. This is useful for when you want to start in AUTO mode on boot without a receiver." user="Advanced">
@@ -526,6 +538,8 @@
 <value code="20">QLAND</value>
 <value code="21">QRTL</value>
 <value code="22">QAUTOTUNE</value>
+<value code="37">AWE_LOITER_3D</value>
+<value code="38">AWE_EIGHT_SPHERE</value>
 </values>
 </param>
 <param humanName="Maximum Bank Angle" name="ArduPlane:LIM_ROLL_CD" documentation="Maximum bank angle commanded in modes with stabilized limits. Increase this value for sharper turns, but decrease to prevent accelerated stalls." user="Standard">

@@ -35,6 +35,9 @@ APMPlaneMode::APMPlaneMode(uint32_t mode, bool settable)
         {QLOITER,        "QuadPlane Loiter"},
         {QLAND,          "QuadPlane Land"},
         {QRTL,           "QuadPlane RTL"},
+        {AWE_LOITER_3D,  "LOITER_3D"},
+        {AWE_EIGHT_SPHERE,"EIGHT_SPHERE"},
+
     });
 }
 
@@ -60,6 +63,9 @@ ArduPlaneFirmwarePlugin::ArduPlaneFirmwarePlugin(void)
         APMPlaneMode(APMPlaneMode::QLOITER         ,true),
         APMPlaneMode(APMPlaneMode::QLAND           ,true),
         APMPlaneMode(APMPlaneMode::QRTL            ,true),
+        APMPlaneMode(APMPlaneMode::AWE_LOITER_3D   ,true),
+        APMPlaneMode(APMPlaneMode::AWE_EIGHT_SPHERE,true),
+
     });
 
     if (!_remapParamNameIntialized) {
